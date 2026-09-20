@@ -1,0 +1,114 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Annie Thomas | Projects</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <!-- NAV BAR -->
+    <header>
+      <div class="logo"><span class="logo-icon"></span> ANNIE</div>
+      <nav>
+        <ul class="nav-links">
+          <li><a href="index.html">HOME</a></li>
+          <li><a href="about.html">ABOUT ME</a></li>
+          <li><a href="projects.html">PROJECTS</a></li>
+
+          <li><a href="contact.html">CONTACT</a></li>
+        </ul>
+      </nav>
+      <a href="annie thomas.pdf" download class="btn btn-primary"
+        >DOWNLOAD CV</a
+      >
+      <button id="theme-toggle" class="theme-btn">🌙</button>
+
+      <div class="hamburger"><span></span><span></span><span></span></div>
+    </header>
+
+    <!-- PROJECTS SECTION -->
+    <main>
+      <section class="projects-section">
+        <h1 class="page-title">MY PROJECTS</h1>
+        <p class="page-subtitle">Latest projects</p>
+
+        <!-- Top Row: 3 Text Cards -->
+        <div class="projects-grid">
+          <article class="project-card text-card">
+            <h2>Smart Bin</h2>
+            <p>
+              An automated waste bin designed to open when a person approaches.
+              The system uses ultrasonic sensors to detect presence and a servo
+              motor to control the lid.
+            </p>
+            <p class="tools">
+              <strong>Tools:</strong> Arduino, Ultrasonic Sensors, Servo Motor.
+            </p>
+            <p class="reflection">
+              <strong>Reflection:</strong> Wiring was complex, next time I would
+              design a custom PCB.
+            </p>
+          </article>
+
+          <article class="project-card text-card">
+            <h2>Smart Security System</h2>
+            <p>
+              A security system that detects movement after hours and during
+              weekends. Triggers a buzzer when a person is detected near the
+              office.
+            </p>
+            <p class="tools">
+              <strong>Tools:</strong> PIR Sensors, Microcontroller, Buzzer.
+            </p>
+            <p class="reflection">
+              <strong>Reflection:</strong> False alarms were an issue, I would
+              add a camera module next time.
+            </p>
+          </article>
+
+          <article class="project-card text-card">
+            <h2>FTTx Network Deployment</h2>
+            <p>
+              Configured routers and ONU devices for customer installations.
+              Involved fibre optic splicing, VPN setup, and troubleshooting
+              network faults.
+            </p>
+            <p class="tools">
+              <strong>Tools:</strong> Huawei NOC tools, Fusion Splicers,
+              Routers.
+            </p>
+            <p class="reflection">
+              <strong>Reflection:</strong> Learned real-world network
+              topologies.
+            </p>
+          </article>
+        </div>
+
+        <!-- Bottom Row: 3 Image Cards -->
+        <div class="projects-grid">
+          <div class="project-card image-card">
+            <img src="smart bin image.png" alt="Smart Bin Project" />
+          </div>
+          <div class="project-card image-card">
+            <img src="projects.jpeg" alt="Smart Security System" />
+          </div>
+          <div class="project-card image-card">
+            <img src="annie.jpeg" alt="FTTx Network Deployment" />
+            <!-- Using a placeholder for now -->
+          </div>
+        </div>
+      </section>
+
+      <!-- LIVE GITHUB API SECTION -->
+      <section class="github-section">
+        <h2>My GitHub Repositories</h2>
+        <div id="github-container">
+          <p class="loading-text">Loading repositories...</p>
+        </div>
+      </section>
+    </main>
+
+    <script src="script.js"></script>
+  </body>
+</html>

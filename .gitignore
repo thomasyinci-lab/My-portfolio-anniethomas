@@ -1,0 +1,7 @@
+# Ignore personal files
+cv.pdf
+annie thomas.pdf
+
+# Ignore system files
+.DS_Store
+Thumbs.db
