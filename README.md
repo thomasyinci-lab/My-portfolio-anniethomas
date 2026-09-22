@@ -10,7 +10,7 @@ https://thomasyinci-lab.github.io/My-portfolio-anniethomas/contact.html
 
 ## Figma Design File
 
-[Insert your Figma link here]
+(https://www.figma.com/design/bPCibHRKdn37o26rfmcWed/BOTH-VERSIONS?node-id=0-1&t=quCZpW8K2OjGoNAQ-1)
 
 ## How to Run Locally
 
