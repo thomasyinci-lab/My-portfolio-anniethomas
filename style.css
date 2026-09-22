@@ -474,7 +474,8 @@ header {
   display: inline-block;
   border: 2px solid var(--color-text-main);
   padding: 10px 20px;
-  margin-bottom: 20px;
+  margin: 0 0 20px 0; /* Removed default h1 margins */
+  font-size: 24px;    /* Keeps it the same size as before */
   font-weight: 700;
   position: relative;
 }
