@@ -25,6 +25,14 @@
 - **Text Secondary:** `#A0A7B4` (Paragraphs) - _Contrast vs BG: ~8:1 (Passes AAA)_
 - **Border:** `#1F2937`
 
+### Color Contrast Ratios (WCAG AA/AAA)
+- #FFFFFF on #080F14: 19.29:1 (AAA)
+- #A0A7B4 on #080F14: 7.97:1 (AAA)
+- #FFFFFF on #111027: 18.63:1 (AAA)
+- #A0A7B4 on #111027: 7.70:1 (AAA)
+- #080F14 on #FF7A00: 7.38:1 (AA)
+- #1F2937 on #111027: Decorative only (no WCAG requirement)
+
 ### Button Contrast Ratio
 
 - Primary Button Text (#080F14) on Orange (#FF7A00): Contrast Ratio 7.38:1 (Passes WCAG AA)
