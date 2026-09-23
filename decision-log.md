@@ -51,7 +51,7 @@
 
 ### 8. Deployment
 
-- **Decision:** Deploying via Netlify.
-- **Alternative:** GitHub Pages.
-- **Why:** Netlify makes it incredibly easy to hook up a GitHub repo and redeploy automatically on every push.
-- **Trade-off:** Requires signing up for a third-party service, though it's free.
+- **Decision:** Deploying via github .
+- **Alternative:** Netlify Pages.
+- **Why:** Chose GitHub Pages because it's natively integrated with my repository. It eliminates the need for a third-party CI/CD pipeline, and it automatically redeploys on every push to main, which is simple and reliable for a static site 
+- **Trade-off:** I chose GitHub Pages for its simplicity, but the trade-off is that I cannot natively process form submissions on the server side. I implemented client-side validation instead
