@@ -1,7 +1,7 @@
 // ==========================================
 // 1. GITHUB API FETCH
 // ==========================================
-// Replace 'YOUR_GITHUB_USERNAME' with your actual GitHub username (e.g., 'annethomas')
+
 const GITHUB_USERNAME = 'thomasyinci-lab'; 
 const API_URL = `https://api.github.com/users/${GITHUB_USERNAME}/repos`;
 

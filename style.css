@@ -1,5 +1,5 @@
 :root {
-  /* Colors from Figma Design System */
+  /* Color\ from Figma Design System */
   --color-primary: #FF7A00;
   --color-bg: #080F14;
   --color-surface: #111027;
@@ -34,7 +34,7 @@ header {
   justify-content: space-between;
   align-items: center;
   padding: 20px 40px;
-  background-color: transparent; /* You can change this to var(--color-bg) or keep it transparent */
+  background-color: transparent; /* change this to var(--color-bg) or keep it transparent */
   position: relative;
   z-index: 10;
 }
